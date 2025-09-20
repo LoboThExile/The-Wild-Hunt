@@ -1,0 +1,1 @@
+execute as @a at @s run playsound block.bell.use music @s ~ ~ ~ 7 1

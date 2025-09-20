@@ -1,0 +1,4 @@
+schedule clear thehunt:announceprey
+schedule clear thehunt:countdown_ingame
+schedule clear thehunt:countdown_tick
+schedule clear thehunt:startaftercd

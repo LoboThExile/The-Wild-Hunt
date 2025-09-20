@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crossbow"
+    },
+    "title": "The Wild Hunt",
+    "description": "It begins... §8§lBy LoboThExile",
+    "background": "minecraft:block/black_wool",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/adventuring_time",
+  "criteria": {
+    "trigger_start": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    ["trigger_start"]
+  ],
+  "sends_telemetry_event": false
+}

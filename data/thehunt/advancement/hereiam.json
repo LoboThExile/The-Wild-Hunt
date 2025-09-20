@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": "HERE I AM",
+    "description": "Can you see me?",
+    "background": "minecraft:block/black_wool",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/adventuring_time",
+  "criteria": {
+    "craft_lightning_rod": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:lightning_rod"
+      }
+    }
+  },
+  "requirements": [
+    ["craft_lightning_rod"]
+  ],
+  "rewards": {
+    "function": "thehunt:test/noel"
+  },
+  "sends_telemetry_event": false
+}
